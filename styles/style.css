@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 769px) { 
+    header {
+        max-width: 768px;
+    }
+    .portfolio_bar_background { 
+        max-width: 768px;       
+    }  
+    footer {
+        max-width: 768px;
+    }        
+ }
+
+@media (min-width: 990px) { 
+    header {
+        max-width: 1219px;
+    }
+    .portfolio_bar_background { 
+        max-width: 1219px;    
+    }
+    footer {
+        max-width: 1219px;
+    }    
+ }
+
+ body {
+     margin: 0 auto; 
+ }
+
+
+header {
+    /* background-color: #343A40;
+    height: 56px; */
+    margin: 0 auto; 
+      
+} 
+/* .navbar-light .navbar-brand {
+    color: #FFFFFF;
+} */
+
+/* .navbar-light .navbar-nav .active>.nav-link {
+    color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(248,249,250);
+} */
+
+/* .navbar-light .navbar-toggler {
+    color: rgb(248,249,250);
+    border-color: rgb(248,249,250);
+} */
+
+
+/* nav {
+    padding: 14px 14px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+/* nav a {    
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px; */
+    /* margin-left: 14px;
+    margin-right: 18px; 
+} */
+
+/*
+nav a:first-of-type {
+    font-size: 24px;
+} */
+
+.portfolio_bar_background { 
+    background-color: #E9ECEF;
+    margin: 0 auto;
+}
+
+.portfolio_bar {
+    height: 342px;      
+}
+
+.portfolio_bar h1 {
+    margin-top: 64px;
+}
+
+.portfolio_bar p {
+    margin-top: 8px;
+    max-width: 635px;
+    font-size: 16px;    
+    font-family: Roboto;
+    line-height: 19px;
+}
+
+.portfolio_bar a {
+    margin-top: 16px;
+    font-size: 20px;
+    padding: 12px 20px;
+    
+}
+
+.card {
+    margin-top: 32px;    
+}
+
+.card-body .btn {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.card-body p {
+    margin-bottom: 0;
+}
+
+.main_table {
+    margin-top: 32px;
+}
+
+footer {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 53px;
+    background-color: #F5F5F5;
+    min-height: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6C757D;    
+}
